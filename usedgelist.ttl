@@ -1,0 +1,53 @@
+@prefix related: <http://learningsparql.com/ns/relatedto#> .
+@prefix person:  <http://learningsparql.com/ns/person#> .
+@prefix id:  <http://learningsparql.com/ns/id#> .
+
+
+id:0 person:name "Al Gore".
+id:1 person:name "Obama".
+id:2 person:name "Michelle".
+id:3 person:name "Kerry".
+id:4 person:name "Ivanka".
+id:5 person:name "Melania".
+id:6 person:name "Laura".
+id:7 person:name "Hillary".
+id:8 person:name "Bush".
+id:9 person:name "Bill".
+id:10 person:name "McCain".
+id:11 person:name "Cindy".
+id:12 person:name "G.Bush".
+id:13 person:name "Trump".
+id:14 person:name "Clinton".
+id:15 person:name "T.Aitcheson".
+id:16 person:name "J. Thorn".
+id:17 person:name "Dole".
+id:18 person:name "Romney".
+
+id:14 related:Related_to id:7.
+id:8 related:Related_to id:6.
+id:1 related:Related_to id:2.
+id:8 related:Related_to id:6.
+id:1 related:Related_to id:2.
+id:8 related:Related_to id:6.
+id:13 related:Related_to id:4.
+id:8 related:Related_to id:6.
+id:14 related:Related_to id:12.
+id:14 related:Related_to id:17.
+id:8 related:Related_to id:0.
+id:8 related:Related_to id:3.
+id:1 related:Related_to id:10.
+id:8 related:Related_to id:6.
+id:1 related:Related_to id:18.
+id:13 related:Related_to id:7.
+id:9 related:Related_to id:8.
+id:8 related:Related_to id:1.
+id:1 related:Related_to id:13.
+id:7 related:Related_to id:6.
+id:13 related:Related_to id:7.
+id:6 related:Related_to id:2.
+id:13 related:Related_to id:7.
+id:2 related:Related_to id:5.
+id:7 related:Related_to id:2.
+id:3 related:Related_to id:16.
+id:0 related:Related_to id:15.
+id:10 related:Related_to id:11.
