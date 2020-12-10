@@ -5,78 +5,97 @@
 :Al_Gore rdf:type :Person.
 :Al_Gore :id 0.
 :Al_Gore :name "Al Gore".
+:Al_Gore :party "Democrat".
 
 :Obama rdf:type :Person.
 :Obama :id 1.
 :Obama :name "Obama".
+:Obama :party "Democrat".
 
 :Michelle rdf:type :Person.
 :Michelle :id 2.
 :Michelle :name "Michelle".
+:Michelle :party "Democrat".
 
 :Kerry rdf:type :Person.
 :Kerry :id 3.
 :Kerry :name "Kerry".
+:Kerry :party "Democrat".
 
 :Ivanka rdf:type :Person.
 :Ivanka :id 4.
 :Ivanka :name "Ivanka".
+:Ivanka :party "Republican".
 
 :Melania rdf:type :Person.
 :Melania :id 5.
 :Melania :name "Melania".
+:Melania :party "Republican".
 
 :Laura rdf:type :Person.
 :Laura :id 6.
 :Laura :name "Laura".
+:Laura :party "Republican".
 
 :Hillary rdf:type :Person.
 :Hillary :id 7.
 :Hillary :name "Hillary".
+:Hillary :party "Democrat".
 
 :Bush rdf:type :Person.
 :Bush :id 8.
 :Bush :name "Bush".
+:Bush :party "Republican".
 
 :Bill rdf:type :Person.
 :Bill :id 9.
 :Bill :name "Bill".
+:Bill :party "Republican".
 
 :McCain rdf:type :Person.
 :McCain :id 10.
 :McCain :name "McCain".
+:McCain :party "Republican".
 
 :Cindy rdf:type :Person.
 :Cindy :id 11.
 :Cindy :name "Cindy".
+:Cindy :party "Republican".
 
 :G_Bush rdf:type :Person.
 :G_Bush :id 12.
 :G_Bush :name "G.Bush".
+:G_Bush :party "Republican".
 
 :Trump rdf:type :Person.
 :Trump :id 13.
 :Trump :name "Trump".
+:Trump :party "Republican".
 
 :Clinton rdf:type :Person.
 :Clinton :id 14.
 :Clinton :name "Clinton".
+:Clinton :party "Democrat".
 
 :T_Aitcheson rdf:type :Person.
 :T_Aitcheson :id 15.
 :T_Aitcheson :name "T.Aitcheson".
+:T_Aitcheson :party "Democrat".
 
 :J_Thorn rdf:type :Person.
 :J_Thorn :id 16.
 :J_Thorn :name "J.Thorn".
+:J_Thorn :party "Democrat".
 
 :Dole rdf:type :Person.
 :Dole :id 17.
 :Dole :name "Dole".
+:Dole :party "Republican".
 
 :Romney rdf:type :Person.
 :Romney :id 17.
 :Romney :name "Romney".
+:Romney :party "Republican".
 
 :Clinton related:Related_to :Hillary.
 :Bush related:Related_to :Laura.
