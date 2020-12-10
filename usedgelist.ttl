@@ -1,53 +1,108 @@
 @prefix related: <http://learningsparql.com/ns/relatedto#> .
-@prefix person:  <http://learningsparql.com/ns/person#> .
-@prefix id:  <http://learningsparql.com/ns/id#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://stardog.com/tutorial/> . 	
 
+:Al_Gore rdf:type :Person.
+:Al_Gore :id 0.
+:Al_Gore :name "Al Gore".
 
-id:0 person:name "Al Gore".
-id:1 person:name "Obama".
-id:2 person:name "Michelle".
-id:3 person:name "Kerry".
-id:4 person:name "Ivanka".
-id:5 person:name "Melania".
-id:6 person:name "Laura".
-id:7 person:name "Hillary".
-id:8 person:name "Bush".
-id:9 person:name "Bill".
-id:10 person:name "McCain".
-id:11 person:name "Cindy".
-id:12 person:name "G.Bush".
-id:13 person:name "Trump".
-id:14 person:name "Clinton".
-id:15 person:name "T.Aitcheson".
-id:16 person:name "J. Thorn".
-id:17 person:name "Dole".
-id:18 person:name "Romney".
+:Obama rdf:type :Person.
+:Obama :id 1.
+:Obama :name "Obama".
 
-id:14 related:Related_to id:7.
-id:8 related:Related_to id:6.
-id:1 related:Related_to id:2.
-id:8 related:Related_to id:6.
-id:1 related:Related_to id:2.
-id:8 related:Related_to id:6.
-id:13 related:Related_to id:4.
-id:8 related:Related_to id:6.
-id:14 related:Related_to id:12.
-id:14 related:Related_to id:17.
-id:8 related:Related_to id:0.
-id:8 related:Related_to id:3.
-id:1 related:Related_to id:10.
-id:8 related:Related_to id:6.
-id:1 related:Related_to id:18.
-id:13 related:Related_to id:7.
-id:9 related:Related_to id:8.
-id:8 related:Related_to id:1.
-id:1 related:Related_to id:13.
-id:7 related:Related_to id:6.
-id:13 related:Related_to id:7.
-id:6 related:Related_to id:2.
-id:13 related:Related_to id:7.
-id:2 related:Related_to id:5.
-id:7 related:Related_to id:2.
-id:3 related:Related_to id:16.
-id:0 related:Related_to id:15.
-id:10 related:Related_to id:11.
+:Michelle rdf:type :Person.
+:Michelle :id 2.
+:Michelle :name "Michelle".
+
+:Kerry rdf:type :Person.
+:Kerry :id 3.
+:Kerry :name "Kerry".
+
+:Ivanka rdf:type :Person.
+:Ivanka :id 4.
+:Ivanka :name "Ivanka".
+
+:Melania rdf:type :Person.
+:Melania :id 5.
+:Melania :name "Melania".
+
+:Laura rdf:type :Person.
+:Laura :id 6.
+:Laura :name "Laura".
+
+:Hillary rdf:type :Person.
+:Hillary :id 7.
+:Hillary :name "Hillary".
+
+:Bush rdf:type :Person.
+:Bush :id 8.
+:Bush :name "Bush".
+
+:Bill rdf:type :Person.
+:Bill :id 9.
+:Bill :name "Bill".
+
+:McCain rdf:type :Person.
+:McCain :id 10.
+:McCain :name "McCain".
+
+:Cindy rdf:type :Person.
+:Cindy :id 11.
+:Cindy :name "Cindy".
+
+:G_Bush rdf:type :Person.
+:G_Bush :id 12.
+:G_Bush :name "G.Bush".
+
+:Trump rdf:type :Person.
+:Trump :id 13.
+:Trump :name "Trump".
+
+:Clinton rdf:type :Person.
+:Clinton :id 14.
+:Clinton :name "Clinton".
+
+:T_Aitcheson rdf:type :Person.
+:T_Aitcheson :id 15.
+:T_Aitcheson :name "T.Aitcheson".
+
+:J_Thorn rdf:type :Person.
+:J_Thorn :id 16.
+:J_Thorn :name "J.Thorn".
+
+:Dole rdf:type :Person.
+:Dole :id 17.
+:Dole :name "Dole".
+
+:Romney rdf:type :Person.
+:Romney :id 17.
+:Romney :name "Romney".
+
+:Clinton related:Related_to :Hillary.
+:Bush related:Related_to :Laura.
+:Obama related:Related_to :Michelle.
+:Bush related:Related_to :Laura.
+:Obama related:Related_to :Michelle.
+:Bush related:Related_to :Laura.
+:Trump related:Related_to :Ivanka.
+:Bush related:Related_to :Laura.
+:Clinton related:Related_to :G_Bush.
+:Clinton related:Related_to :Dole.
+:Bush related:Related_to :Al_Gore.
+:Bush related:Related_to :Kerry.
+:Obama related:Related_to :McCain.
+:Bush related:Related_to :Laura.
+:Obama related:Related_to :Romney.
+:Trump related:Related_to :Hillary.
+:Bill related:Related_to :Bush.
+:Bush related:Related_to :Obama.
+:Obama related:Related_to :Trump.
+:Hillary related:Related_to :Laura.
+:Trump related:Related_to :Hillary.
+:Laura related:Related_to :Michelle.
+:Trump related:Related_to :Hillary.
+:Michelle related:Related_to :Melania.
+:Hillary related:Related_to :Michelle.
+:Kerry related:Related_to :J_Thorn.
+:Al_Gore related:Related_to :T_Aitcheson.
+:McCain related:Related_to :Cindy.
